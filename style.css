@@ -31,7 +31,7 @@ section.alternate-background {
 }
 
 main img {
-  width: 100px;
+  width: 100%;
 }
 
 /* ---  Groups & Items --- */
@@ -79,6 +79,12 @@ header nav ul li a:hover {
   text-decoration: none;
 }
 
+#menu {
+  display: flex;
+  /* border: 5px solid black; */
+  justify-content: center;
+}
+
 /* -------  Search Form ------- */
 form {
   border: 2px solid #ff385c;
@@ -104,6 +110,12 @@ form button {
   width: 100%;
 }
 
+/* list parent then child */
+form div {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* -------  Footer ------- */
 
 footer {
@@ -116,4 +128,6 @@ footer p {
   padding: 20px;
 }
 
-/* -------  Media Query ------- */
+/* -------  Media Query - as small as 320 ------- */
+
+/* -------  Media Query - breakpoint is 768 ------- */
