@@ -129,5 +129,58 @@ footer p {
 }
 
 /* -------  Media Query - as small as 320 ------- */
-
+/* good down to 295px :) */
+@media all and (max-width: 400px) {
+  .logo{
+    font-size: 48px;
+  }
+}
 /* -------  Media Query - breakpoint is 768 ------- */
+@media all and (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .logo {
+    font-size: 36px;
+  }
+  form div {
+    flex-direction: column;
+    width: 18%;
+  }
+  form {
+    display: flex;
+    justify-content: space-between;
+  }
+  form input, form select {
+    width: 100%;
+  }
+  form button {
+    width: 18%;
+  }
+  #about div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  #about img {
+    width: 25%;
+  }
+  .row {
+    display: flex;
+    gap: 10px;
+  }
+  .row div {
+    flex: 1;
+  }
+  #host {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  #host div {
+    flex: 1;
+  }
+}
